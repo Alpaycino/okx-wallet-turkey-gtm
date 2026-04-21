@@ -1,4 +1,5 @@
 import { Sidebar } from "./components/Sidebar";
+import { BackgroundLogo } from "./components/BackgroundLogo";
 import { Hero } from "./components/Hero";
 import { KeyTargets } from "./components/KeyTargets";
 import { FrictionPoints } from "./components/FrictionPoints";
@@ -16,12 +17,13 @@ import { PHASE_1_TASKS, PHASE_2_TASKS, PHASE_3_TASKS } from "@/lib/data";
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen bg-okx-bg">
+    <div className="relative min-h-screen bg-okx-bg overflow-hidden">
+      <BackgroundLogo />
       <div className="okx-grid absolute inset-0 pointer-events-none" />
       <div className="relative flex">
         <Sidebar />
         <main className="flex-1 min-w-0">
-          <div className="mx-auto w-full max-w-[1200px] px-5 md:px-10 lg:px-14">
+          <div className="w-full max-w-[1200px] pl-5 pr-5 md:pl-8 md:pr-10 lg:pl-10 lg:pr-14">
             <Hero />
             <KeyTargets />
             <FrictionPoints />
