@@ -33,7 +33,7 @@ export function Positioning() {
         </div>
 
         <div className="lg:col-span-3 card p-6">
-          <div className="micro-label mb-4" style={{ color: "#3D66FF" }}>
+          <div className="micro-label mb-4" style={{ color: "#B9F25A" }}>
             CeDeFi advantage
           </div>
           <div className="grid sm:grid-cols-2 gap-3">

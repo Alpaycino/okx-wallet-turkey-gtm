@@ -8,19 +8,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // OKX corporate palette
+        // Alpay × OKX Wallet palette — black base, bright Alpay green accent
         okx: {
           bg: "#000000",
           surface: "#0A0A0A",
-          card: "#111111",
+          card: "#0E0E0E",
           border: "#1F1F1F",
           borderHi: "#2A2A2A",
           text: "#FAFAFA",
           muted: "#8A8A8A",
           dim: "#6B6B6B",
-          blue: "#1F4DFF",
-          blueSoft: "#3D66FF",
-          green: "#0ECB81",
+          // `blue` tokens are kept as aliases of the Alpay green so any legacy
+          // `text-okx-blue` references automatically adopt the new brand color.
+          blue: "#9EEB2E",
+          blueSoft: "#B9F25A",
+          green: "#9EEB2E",
+          greenDeep: "#7ACB18",
           red: "#F6465D",
           accent: "#FFFFFF",
         },

@@ -84,7 +84,7 @@ export function Supplementary() {
 
                 {q.loop && (
                   <div className="mt-5 p-4 rounded-xl border border-okx-blue/30 bg-okx-blue/5">
-                    <div className="micro-label mb-2" style={{ color: "#3D66FF" }}>
+                    <div className="micro-label mb-2" style={{ color: "#B9F25A" }}>
                       Feedback Loop
                     </div>
                     <p className="text-[13px] text-okx-text/90 leading-relaxed">

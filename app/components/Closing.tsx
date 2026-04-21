@@ -24,7 +24,7 @@ export function Closing() {
       </div>
 
       <div className="mt-6 p-8 rounded-[14px] border border-okx-blue/30 bg-gradient-to-br from-okx-blue/10 via-okx-card to-okx-card">
-        <div className="micro-label mb-3" style={{ color: "#3D66FF" }}>
+        <div className="micro-label mb-3" style={{ color: "#B9F25A" }}>
           The Rule
         </div>
         <p className="text-lg md:text-[22px] font-medium text-okx-text leading-snug tracking-tight">

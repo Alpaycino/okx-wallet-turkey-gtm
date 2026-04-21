@@ -18,8 +18,8 @@ body {
 }
 
 ::selection {
-  background: #1f4dff;
-  color: #ffffff;
+  background: #9eeb2e;
+  color: #000000;
 }
 
 /* Subtle noise / grid backdrop */
@@ -36,8 +36,8 @@ body {
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 1200px 600px at 80% -10%, rgba(31, 77, 255, 0.18), transparent 60%),
-    radial-gradient(ellipse 900px 500px at 0% 20%, rgba(31, 77, 255, 0.08), transparent 60%);
+    radial-gradient(ellipse 1200px 600px at 80% -10%, rgba(158, 235, 46, 0.16), transparent 60%),
+    radial-gradient(ellipse 900px 500px at 0% 20%, rgba(158, 235, 46, 0.07), transparent 60%);
   z-index: 0;
 }
 
@@ -100,7 +100,7 @@ body {
 .bar > span {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg, #1f4dff, #3d66ff);
+  background: linear-gradient(90deg, #9eeb2e, #b9f25a);
 }
 
 .section-anchor {
