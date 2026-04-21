@@ -22,11 +22,14 @@ export function OkxWalletLogo({ className = "", width = 180 }: Props) {
   const k = letterW + gap;
   const x = 2 * (letterW + gap);
 
-  // grid origin inside viewBox — center horizontally inside 320-wide viewBox
-  const pad = 10;
-  const vbW = totalW + pad * 2; // 284
-  const gridX = pad;
-  const gridY = pad;
+  // grid origin inside viewBox — viewBox is widened horizontally so that the
+  // WALLET wordmark (which is visually wider than OKX) fits comfortably,
+  // while the OKX pixel grid stays centered above it.
+  const padX = 60;
+  const padY = 10;
+  const vbW = totalW + padX * 2; // 264 + 120 = 384
+  const gridX = padX;
+  const gridY = padY;
 
   const rects: { col: number; row: number; base: number }[] = [
     // O — hollow ring (corners + edges, center empty)
@@ -56,7 +59,7 @@ export function OkxWalletLogo({ className = "", width = 180 }: Props) {
   // ---------------- WALLET text row ----------------
   const walletY = gridY + letterH + 32; // gap under OKX
   const walletBaseline = walletY + 72; // font-size aware
-  const vbH = walletBaseline + pad; // bottom padding
+  const vbH = walletBaseline + padY; // bottom padding
 
   return (
     <svg
