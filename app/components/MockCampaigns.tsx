@@ -74,7 +74,7 @@ export function MockCampaigns() {
                 {c.metrics.map((m, j) => (
                   <div
                     key={j}
-                    className="p-3 rounded-lg bg-okx-bg border border-okx-border text-[12px] text-okx-text/90 leading-snug"
+                    className="p-3 rounded-lg inner-cell text-[12px] text-okx-text/90 leading-snug"
                   >
                     {m}
                   </div>

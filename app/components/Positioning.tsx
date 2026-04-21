@@ -40,7 +40,7 @@ export function Positioning() {
             {POSITIONING.advantages.map((a, i) => (
               <div
                 key={i}
-                className="p-5 rounded-xl bg-okx-bg border border-okx-border"
+                className="p-5 rounded-xl inner-cell"
               >
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-[10px] text-okx-dim">

@@ -30,7 +30,7 @@ export function Supplementary() {
                     {q.verticals.map((v, j) => (
                       <div
                         key={j}
-                        className="p-4 rounded-xl bg-okx-bg border border-okx-border"
+                        className="p-4 rounded-xl inner-cell"
                       >
                         <div className="text-[14px] font-semibold text-okx-text">
                           {v.name}
@@ -50,7 +50,7 @@ export function Supplementary() {
                       {q.steps.map((s, j) => (
                         <div
                           key={j}
-                          className="flex items-start gap-3 p-3 rounded-lg bg-okx-bg border border-okx-border"
+                          className="flex items-start gap-3 p-3 rounded-lg inner-cell"
                         >
                           <span className="w-6 h-6 rounded-full bg-okx-blue/10 border border-okx-blue/30 flex items-center justify-center font-mono text-[11px] text-okx-blue shrink-0">
                             {j + 1}
@@ -69,7 +69,7 @@ export function Supplementary() {
                     {q.kpis.map((k, j) => (
                       <div
                         key={j}
-                        className="p-4 rounded-xl bg-okx-bg border border-okx-border"
+                        className="p-4 rounded-xl inner-cell"
                       >
                         <div className="text-[13px] font-semibold text-okx-text">
                           {k.title}

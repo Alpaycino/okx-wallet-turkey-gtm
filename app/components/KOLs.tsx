@@ -33,7 +33,7 @@ export function KOLs() {
               {cat.kols.map((k, j) => (
                 <div
                   key={j}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-okx-bg border border-okx-border"
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-md inner-cell"
                 >
                   <span className="font-mono text-[12px] text-okx-text">
                     {k.handle}

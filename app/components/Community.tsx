@@ -15,7 +15,7 @@ export function Community() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
           {COMMUNITY.flywheel.map((f, i) => (
             <div key={i} className="relative">
-              <div className="p-4 rounded-xl bg-okx-bg border border-okx-border h-full">
+              <div className="p-4 rounded-xl inner-cell h-full">
                 <div className="flex items-center gap-2 mb-3">
                   <span className="font-mono text-[10px] text-okx-dim">
                     0{i + 1}

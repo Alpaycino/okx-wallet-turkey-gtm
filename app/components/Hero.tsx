@@ -36,9 +36,9 @@ export function Hero() {
 
           {/* OKX Wallet brand slab, right-side, overlayer-style */}
           <div className="lg:col-span-5 flex lg:justify-end">
-            <div className="inline-flex flex-col gap-5 rounded-2xl border border-okx-border bg-okx-surface px-8 py-8 w-full lg:max-w-[440px]">
+            <div className="inline-flex flex-col gap-5 rounded-2xl border border-okx-green/30 bg-okx-green/[0.07] px-8 py-8 w-full lg:max-w-[440px]">
               <OkxWalletLogo className="text-okx-text" width={260} />
-              <span className="h-px w-full bg-okx-border" />
+              <span className="h-px w-full bg-okx-green/20" />
               <div className="text-left">
                 <div className="text-[10px] uppercase tracking-[0.18em] text-okx-muted font-semibold">
                   Case Study

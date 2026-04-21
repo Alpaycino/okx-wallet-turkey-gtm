@@ -65,8 +65,8 @@ body {
 }
 
 .card {
-  background: #0a0a0a;
-  border: 1px solid #1f1f1f;
+  background: rgba(158, 235, 46, 0.06);
+  border: 1px solid rgba(158, 235, 46, 0.25);
   border-radius: 14px;
 }
 
@@ -74,8 +74,13 @@ body {
   transition: border-color 180ms ease, transform 220ms ease, background 180ms ease;
 }
 .card-hover:hover {
-  border-color: #2a2a2a;
-  background: #111111;
+  border-color: rgba(158, 235, 46, 0.45);
+  background: rgba(158, 235, 46, 0.1);
+}
+
+.inner-cell {
+  background: rgba(158, 235, 46, 0.04);
+  border: 1px solid rgba(158, 235, 46, 0.2);
 }
 
 .chip {
@@ -85,9 +90,9 @@ body {
   border-radius: 999px;
   font-size: 11px;
   line-height: 1;
-  background: #0f0f0f;
-  border: 1px solid #1f1f1f;
-  color: #c8c8c8;
+  background: rgba(158, 235, 46, 0.08);
+  border: 1px solid rgba(158, 235, 46, 0.25);
+  color: #e5ffc8;
   white-space: nowrap;
 }
 
