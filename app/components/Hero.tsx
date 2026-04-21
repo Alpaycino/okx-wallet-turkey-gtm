@@ -52,29 +52,35 @@ export function Hero() {
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="card p-6">
-            <div className="micro-label mb-3">Context</div>
-            <p className="text-[15px] leading-relaxed text-okx-text/90">
+          <div className="p-7 rounded-[14px] border border-okx-green/25 bg-okx-green/[0.06]">
+            <div className="micro-label mb-3" style={{ color: "#B9F25A" }}>
+              Context
+            </div>
+            <p className="text-[17px] md:text-[18px] leading-relaxed text-okx-text">
               {EXECUTIVE_SUMMARY.intro}
             </p>
           </div>
-          <div className="card p-6">
-            <div className="micro-label mb-3">Plan</div>
-            <p className="text-[15px] leading-relaxed text-okx-text/90">
+          <div className="p-7 rounded-[14px] border border-okx-green/25 bg-okx-green/[0.06]">
+            <div className="micro-label mb-3" style={{ color: "#B9F25A" }}>
+              Plan
+            </div>
+            <p className="text-[17px] md:text-[18px] leading-relaxed text-okx-text">
               {EXECUTIVE_SUMMARY.plan}
             </p>
           </div>
         </div>
 
-        <div className="mt-6 card p-6">
-          <div className="micro-label mb-4">Deliverables</div>
+        <div className="mt-6 p-7 rounded-[14px] border border-okx-green/25 bg-okx-green/[0.06]">
+          <div className="micro-label mb-4" style={{ color: "#B9F25A" }}>
+            Deliverables
+          </div>
           <div className="grid md:grid-cols-2 gap-x-8 gap-y-3">
             {EXECUTIVE_SUMMARY.deliverables.map((d, i) => (
               <div key={i} className="flex items-start gap-3">
-                <span className="font-mono text-[11px] text-okx-dim mt-1 w-6 shrink-0">
+                <span className="font-mono text-[12px] text-okx-green mt-1 w-7 shrink-0">
                   D{String(i + 1).padStart(2, "0")}
                 </span>
-                <span className="text-[14px] text-okx-text/90 leading-relaxed">
+                <span className="text-[16px] text-okx-text leading-relaxed">
                   {d}
                 </span>
               </div>
@@ -82,11 +88,11 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mt-6 p-6 rounded-[14px] border border-okx-green/30 bg-okx-green/5">
+        <div className="mt-6 p-7 rounded-[14px] border border-okx-green/45 bg-okx-green/[0.12]">
           <div className="micro-label mb-2" style={{ color: "#B9F25A" }}>
             Objective
           </div>
-          <p className="text-lg md:text-xl font-medium text-okx-text leading-snug">
+          <p className="text-xl md:text-2xl font-medium text-okx-text leading-snug">
             {EXECUTIVE_SUMMARY.objective}
           </p>
         </div>
