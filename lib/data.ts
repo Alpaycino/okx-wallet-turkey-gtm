@@ -89,7 +89,7 @@ export const FRICTION_POINTS = [
 ];
 
 export const POSITIONING = {
-  headline: "OKX Wallet's edge is CeDeFi, not just another wallet.",
+  headline: "OKX Wallet's edge is UI and UX, not just another wallet.",
   oneLiner:
     "The most powerful CeDeFi gateway, centralized liquidity meets multi-chain Web3 access.",
   shouldNotBe: [
