@@ -61,9 +61,15 @@ export function MockCampaigns() {
               <div className="micro-label mb-3">KOL Fanout</div>
               <div className="flex flex-wrap gap-1.5">
                 {c.kols.map((k, j) => (
-                  <span key={j} className="chip font-mono">
+                  <a
+                    key={j}
+                    href={`https://x.com/${k.replace(/^@/, "")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="chip font-mono transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
+                  >
                     {k}
-                  </span>
+                  </a>
                 ))}
               </div>
             </div>

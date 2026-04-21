@@ -66,9 +66,15 @@ export function PhaseDetail({
                 <div className="micro-label mb-2">KOLs</div>
                 <div className="flex flex-wrap gap-1.5">
                   {t.kols.map((k, j) => (
-                    <span key={j} className="chip font-mono text-[11px]">
+                    <a
+                      key={j}
+                      href={`https://x.com/${k.replace(/^@/, "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="chip font-mono text-[11px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
+                    >
                       {k}
-                    </span>
+                    </a>
                   ))}
                 </div>
               </div>

@@ -31,9 +31,12 @@ export function KOLs() {
             </div>
             <div className="flex flex-wrap gap-2 mt-5">
               {cat.kols.map((k, j) => (
-                <div
+                <a
                   key={j}
-                  className="flex items-center gap-2 px-3 py-1.5 rounded-md inner-cell"
+                  href={`https://x.com/${k.handle.replace(/^@/, "")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-md inner-cell transition-colors hover:bg-okx-green/[0.14] hover:border-okx-green/50"
                 >
                   <span className="font-mono text-[12px] text-okx-text">
                     {k.handle}
@@ -43,7 +46,7 @@ export function KOLs() {
                       {k.reach}
                     </span>
                   )}
-                </div>
+                </a>
               ))}
             </div>
           </div>

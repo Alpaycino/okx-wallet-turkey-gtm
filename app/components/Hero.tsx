@@ -36,7 +36,12 @@ export function Hero() {
 
           {/* OKX Wallet brand slab, right-side, overlayer-style */}
           <div className="lg:col-span-5 flex lg:justify-end">
-            <div className="inline-flex flex-col gap-5 rounded-2xl border border-okx-green/30 bg-okx-green/[0.07] px-10 py-10 w-full lg:max-w-[500px]">
+            <a
+              href="https://web3.okx.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex flex-col gap-5 rounded-2xl border border-okx-green/30 bg-okx-green/[0.07] px-10 py-10 w-full lg:max-w-[500px] transition-colors hover:bg-okx-green/[0.12] hover:border-okx-green/50"
+            >
               <OkxWalletLogo className="text-okx-text" width={320} />
               <span className="h-px w-full bg-okx-green/20" />
               <div className="text-left">
@@ -47,7 +52,7 @@ export function Hero() {
                   Türkiye Go-To-Market
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 
