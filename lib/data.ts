@@ -222,17 +222,17 @@ export const PHASE_1_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "Weekly DeFi Twitter Spaces Program",
+    title: "Weekly TR Spaces Program (rotating themes)",
     description:
-      "Weekly Turkish DeFi Twitter Spaces with rotating KOL hosts. Topics: DeFi strategy, yield farming, on-chain trading, wallet security. Target 500+ live listeners per session.",
+      "One flagship weekly Turkish Twitter Spaces brand established in Phase 1 and running across the full 6-month plan. Rotating themes: DeFi strategy, meme trading, on-chain alpha, ecosystem AMAs. Single KOL host pool, single listener community, consistent time slot. Target 500+ live listeners per session by Month 2.",
     kols: ["@TheBullduck", "@CoinHuntersTR"],
-    due: "Month 1–2",
+    due: "Month 1 onwards",
     owner: "Alpay",
   },
   {
-    title: "OKX Wallet 'First Swap' Campaign",
+    title: "First Swap Gas Refund Flagship Initiative",
     description:
-      "Users who complete their first DEX swap via OKX Wallet receive gas fee reimbursement + token reward. Lowers the psychological barrier for CEX-only users.",
+      "The headline CEX → on-chain conversion mechanic of the entire plan. Users completing their first OKX Wallet DEX swap receive gas reimbursement + bonus token reward + achievement NFT. Removes cost anxiety for CEX-only users, creates the aha moment, and becomes the proof point every KOL anchors their onboarding story to. Strategic rationale in Supplementary Q4.",
     kols: ["@CryptoKemal", "@Kriptomessi", "@Selcoin", "@dotiryaki"],
     due: "Month 1–2",
     owner: "Alpay",
@@ -248,7 +248,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
   {
     title: "Stablecoin & DeFi Yield Education",
     description:
-      "Positioning OKX Wallet DeFi yield against Turkish Lira inflation: stablecoin staking, LP strategies, yield farming basics.",
+      "Positioning OKX Wallet DeFi yield against Turkish Lira inflation: stablecoin staking, LP strategies, yield farming basics. Education-stage content that feeds Phase 2's conversion campaign.",
     kols: ["@TheBullduck", "@dotiryaki", "@coinmuhendisi"],
     due: "Month 1–2",
     owner: "Alpay",
@@ -272,7 +272,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
   {
     title: "OKX DEX Aggregator Awareness Campaign",
     description:
-      "Dedicated campaign highlighting best-price routing across 500+ DEXs and 130+ chains. Comparison content vs competitors.",
+      "The canonical introduction to OKX's routing advantage: best-price execution across 500+ DEXs and 130+ chains. Comparison content vs competitors. Establishes the numbers once in Phase 1; Phases 2 and 3 reference without restating.",
     kols: ["@Kriptolik", "@zenerbabax"],
     due: "Month 1–2",
     owner: "Alpay",
@@ -293,13 +293,6 @@ export const PHASE_1_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "First On-Chain Transaction Incentive",
-    description:
-      "Gas fee reimbursement, bonus token rewards, achievement NFTs, designed to pull CEX-only users into their first on-chain action.",
-    due: "Month 1–2",
-    owner: "Alpay",
-  },
-  {
     title: "Referral Campaign Launch",
     description:
       "Existing wallet users earn rewards for referring new users who complete their first DeFi transaction. Viral growth mechanism across all KOL networks.",
@@ -314,17 +307,10 @@ export const PHASE_1_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "Education Performance Tracking",
+    title: "Weekly Metrics Review Ritual",
     description:
-      "Track KPIs: views, engagement rate, RTs, wallet creation conversions, first swap completions. Weekly reporting to optimize KOL ROI.",
-    due: "Month 2",
-    owner: "Alpay",
-  },
-  {
-    title: "Community Metrics Dashboard",
-    description:
-      "Track first on-chain transaction rate, wallet creations, Space attendance, and CEX-to-Wallet conversion rate. Target: 10–15% CEX conversion, 20K Turkish Wallet MAU.",
-    due: "Month 2",
+      "Single measurement cadence running across all 6 months, replacing ad-hoc per-phase tracking. Weekly report covers KOL content performance (views, RTs, engagement), wallet creations, first swap completions, CEX → Wallet conversion rate, and Telegram/Spaces community growth. Monthly checkpoint roll-up against Phase KPIs (Month 2 / 4 / 6 Success Metrics).",
+    due: "Month 1 onwards",
     owner: "Alpay",
   },
 ];
@@ -333,30 +319,24 @@ export const PHASE_2_TASKS: PhaseTask[] = [
   {
     title: "Trading Activation Campaign Planning",
     description:
-      "Define KPI targets, prize pools, and KOL schedule for meme trading, AI agent, and DeFi yield campaigns.",
+      "Define KPI targets, prize pools, and KOL schedule for the AI Meme Trading League and supporting DeFi yield campaigns.",
     due: "Month 3",
     owner: "Alpay",
   },
   {
-    title: "Meme Token Trading Competition",
+    title: "AI Meme Trading League (Flagship Campaign)",
     description:
-      "Leaderboard-based competition via OKX DEX Aggregator. Rewards in USDT / partner tokens. Meme tokens are the natural entry point for CEX-to-on-chain traders.",
-    due: "Month 3–4",
-    owner: "Alpay",
-  },
-  {
-    title: "KOL Meme Trading Activation",
-    description:
-      "Meme-focused KOLs run trading sessions, analysis threads, and strategy shares during the competition window.",
-    kols: ["@artuntan", "@Kriptolik"],
-    due: "Month 3–4",
-    owner: "Alpay",
-  },
-  {
-    title: "Weekly Meme Trading Twitter Spaces",
-    description:
-      "AI trading strategies, meme token market opportunities, and leaderboard updates broadcast live.",
-    kols: ["@CoinHuntersTR"],
+      "Phase 2's headline program, executing Mock Campaign #1 as one unified experience rather than four parallel announcements. Single league encompassing: leaderboard competition via OKX DEX Aggregator, weekly KOL trading sessions and analysis threads, live rankings broadcast through the Weekly TR Spaces slot, and embedded AI Agent strategy workshops. Meme tokens are the natural CEX → on-chain entry point, AI agents are OKX Wallet's differentiator, and the league format turns both into one viral narrative.",
+    kols: [
+      "@HeathleyETH",
+      "@CasanovaWeb3",
+      "@Kriptolik",
+      "@zenerbabax",
+      "@artuntan",
+      "@Coinisan",
+      "@Modularityx",
+      "@CoinHuntersTR",
+    ],
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -375,26 +355,10 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "AI Agent Meme Trading Competition",
-    description:
-      "Nationwide competition using OKX Wallet AI Agents to discover and trade trending meme tokens. Rankings by volume and profitability.",
-    kols: ["@Kriptolik", "@zenerbabax", "@Coinisan", "@Modularityx"],
-    due: "Month 3–4",
-    owner: "Alpay",
-  },
-  {
     title: "OnchainOS Education Campaign",
     description:
       "'Your wallet is now an OS' Turkish narrative. AI agents for token discovery, market analysis, and trade execution.",
     kols: ["@Kriptolik", "@zenerbabax", "@Coinisan", "@Modularityx"],
-    due: "Month 3–4",
-    owner: "Alpay",
-  },
-  {
-    title: "AI Agent Strategy Workshop Series",
-    description:
-      "Setup, configuration, and combining AI agents with on-chain trading. Spaces + video tutorials.",
-    kols: ["@Modularityx", "@kriptobi", "@CoinHuntersTR"],
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -429,9 +393,9 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "DEX Aggregator Phase 2 Campaign",
+    title: "DEX Aggregator Advanced Features Campaign",
     description:
-      "Advanced features, best routing demonstrations, gas optimization. Target active traders seeking better execution.",
+      "Phase 2 DEX Aggregator focus for traders already past the Phase 1 awareness stage: limit-order UX, best-routing demonstrations, gas optimization, and MEV protection.",
     kols: ["@Kriptolik", "@zenerbabax"],
     due: "Month 3–4",
     owner: "Alpay",
@@ -445,9 +409,9 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "Stablecoin Yield Strategy Campaign",
+    title: "Stablecoin Yield Conversion Campaign",
     description:
-      "OKX Wallet DeFi yield positioned against Turkish Lira inflation. Stablecoin staking, USDT/USDC yield comparison, risk-adjusted returns.",
+      "Phase 2 conversion play built on Phase 1 stablecoin education. Guided deposits into curated yield strategies via OKX Earn and on-chain LP positions. Measured by TVL from Turkish users, not education views.",
     kols: ["@TheBullduck", "@dotiryaki"],
     due: "Month 3–4",
     owner: "Alpay",
@@ -463,15 +427,8 @@ export const PHASE_2_TASKS: PhaseTask[] = [
   {
     title: "Cross-Chain Trading Tutorial",
     description:
-      "Bridging assets, multi-chain DEX trading, cross-chain yield strategies across 130+ chains.",
+      "Bridging assets, multi-chain DEX trading, cross-chain yield strategies.",
     kols: ["@zenerbabax", "@HeathleyETH", "@CasanovaWeb3"],
-    due: "Month 3–4",
-    owner: "Alpay",
-  },
-  {
-    title: "Weekly On-Chain Alpha Twitter Spaces",
-    description:
-      "Summaries of on-chain trends and alpha opportunities. Signal-channel format with actionable insights.",
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -480,20 +437,6 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     description:
       "Weekly / monthly rankings based on trading volume and profitability via OKX Wallet.",
     due: "Month 3–4",
-    owner: "Alpay",
-  },
-  {
-    title: "Trading Competition Performance Tracking",
-    description:
-      "AI agent adoption, meme trading volume, competition participation. Target: $500M monthly on-chain transaction volume.",
-    due: "Month 4",
-    owner: "Alpay",
-  },
-  {
-    title: "DeFi Engagement Metrics Dashboard",
-    description:
-      "DEX Aggregator volume, trading competition participation, DeFi TVL from Turkish users, yield campaign conversions.",
-    due: "Month 4",
     owner: "Alpay",
   },
 ];
@@ -537,9 +480,9 @@ export const PHASE_3_TASKS: PhaseTask[] = [
     owner: "Alpay",
   },
   {
-    title: "Cross-Chain DeFi Exploration Campaign",
+    title: "Cross-Chain DeFi Strategy Campaign",
     description:
-      "KOLs demonstrate real on-chain strategies across OKX 500+ DEX aggregation and 130+ chains.",
+      "KOLs demonstrate end-to-end multi-ecosystem plays: bridging capital, rotating between chains for the best yield or airdrop exposure, and consolidating positions via OKX Wallet. Focus is strategy mastery, not aggregator coverage (already established in Phase 1).",
     kols: ["@Kriptolik", "@zenerbabax", "@HeathleyETH", "@CasanovaWeb3"],
     due: "Month 5–6",
     owner: "Alpay",
@@ -572,13 +515,6 @@ export const PHASE_3_TASKS: PhaseTask[] = [
     title: "Partner Protocol DeFi Campaign",
     description:
       "Exclusive yield, boosted staking rewards, and liquidity mining accessible through OKX Wallet.",
-    due: "Month 5–6",
-    owner: "Alpay",
-  },
-  {
-    title: "Ecosystem AMA Twitter Spaces Series",
-    description:
-      "Protocol introductions, roadmap discussions, and community Q&A co-hosted with partner teams.",
     due: "Month 5–6",
     owner: "Alpay",
   },
@@ -645,20 +581,6 @@ export const PHASE_3_TASKS: PhaseTask[] = [
     description:
       "Expanded yield campaigns across new protocols and chains, including institutional-grade DeFi products.",
     due: "Month 5–6",
-    owner: "Alpay",
-  },
-  {
-    title: "Ecosystem Growth Metrics Tracking",
-    description:
-      "Partnership count, co-marketing reach, cross-chain volume, airdrop participation, quest completion. Target: 20K Turkish Wallet MAU, 30+ KOL partnerships.",
-    due: "Month 6",
-    owner: "Alpay",
-  },
-  {
-    title: "Wallet MAU & On-Chain Volume Reporting",
-    description:
-      "Final 6-month assessment: MAU, on-chain volume, DeFi TVL from Turkish users, retention rates. Next-phase planning.",
-    due: "Month 6",
     owner: "Alpay",
   },
 ];
@@ -833,7 +755,7 @@ export const SUPPLEMENTARY = [
   {
     id: "q4",
     question: "Growth Hack, First Swap Gas Refund",
-    body: "Users who complete their first DEX swap receive gas reimbursement + bonus token reward. This eliminates the #1 barrier (cost anxiety) and creates an immediate aha moment.",
+    body: "Strategic framing behind the plan's flagship conversion mechanic (executed as the First Swap Gas Refund Flagship Initiative in Phase 1). First-swap cost anxiety is the single biggest block between a CEX trader and self-custody. Eliminating it creates the aha moment and gives every KOL a concrete proof point to anchor their onboarding story to.",
     loop:
       "UX Feedback Loop: Pain points collected via Telegram support, community surveys, and KOL reports → monthly digest forwarded to the global product team for wallet UX improvements.",
   },
