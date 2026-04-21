@@ -71,7 +71,7 @@ export function PhaseDetail({
                       href={`https://x.com/${k.replace(/^@/, "")}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="chip font-mono text-[11px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
+                      className="chip font-mono text-[13px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
                     >
                       {k}
                     </a>
