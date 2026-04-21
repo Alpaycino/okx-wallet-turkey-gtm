@@ -63,7 +63,7 @@ export function PhaseDetail({
             </p>
             {t.kols && t.kols.length > 0 && (
               <div className="mt-4 pt-4 border-t border-okx-border">
-                <div className="micro-label mb-2">KOLs</div>
+                <div className="micro-label mb-2 font-bold text-okx-text">KOLs</div>
                 <div className="flex flex-wrap gap-1.5">
                   {t.kols.map((k, j) => (
                     <a
@@ -71,7 +71,7 @@ export function PhaseDetail({
                       href={`https://x.com/${k.replace(/^@/, "")}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="chip font-mono text-[13px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
+                      className="chip font-mono text-[15px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
                     >
                       {k}
                     </a>

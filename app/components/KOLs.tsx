@@ -38,11 +38,11 @@ export function KOLs() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-3 py-1.5 rounded-md inner-cell transition-colors hover:bg-okx-green/[0.14] hover:border-okx-green/50"
                 >
-                  <span className="font-mono text-[14px] text-okx-text">
+                  <span className="font-mono text-[16px] text-okx-text">
                     {k.handle}
                   </span>
                   {k.reach !== "" && (
-                    <span className="font-mono text-[12px] text-okx-dim">
+                    <span className="font-mono text-[13px] text-okx-dim">
                       {k.reach}
                     </span>
                   )}

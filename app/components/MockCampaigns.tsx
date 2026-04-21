@@ -58,7 +58,7 @@ export function MockCampaigns() {
             </div>
 
             <div className="mt-5 pt-5 border-t border-okx-border">
-              <div className="micro-label mb-3">KOL Fanout</div>
+              <div className="micro-label mb-3 font-bold text-okx-text">KOL Fanout</div>
               <div className="flex flex-wrap gap-1.5">
                 {c.kols.map((k, j) => (
                   <a
@@ -66,7 +66,7 @@ export function MockCampaigns() {
                     href={`https://x.com/${k.replace(/^@/, "")}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="chip font-mono text-[13px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
+                    className="chip font-mono text-[15px] transition-colors hover:bg-okx-green/[0.18] hover:border-okx-green/50"
                   >
                     {k}
                   </a>
