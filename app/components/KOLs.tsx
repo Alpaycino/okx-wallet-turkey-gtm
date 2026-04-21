@@ -8,7 +8,7 @@ export function KOLs() {
       index={9}
       label="KOL Ecosystem"
       title="Four tiers. One network."
-      kicker="The KOL ecosystem is segmented by content purpose — every partner is measured against on-chain KPIs, not impressions."
+      kicker="The KOL ecosystem is segmented by content purpose, every partner is measured against on-chain KPIs, not impressions."
     >
       <div className="space-y-3">
         {KOL_CATEGORIES.map((cat, i) => (
@@ -38,7 +38,7 @@ export function KOLs() {
                   <span className="font-mono text-[12px] text-okx-text">
                     {k.handle}
                   </span>
-                  {k.reach !== "—" && (
+                  {k.reach !== "" && (
                     <span className="font-mono text-[10px] text-okx-dim">
                       {k.reach}
                     </span>

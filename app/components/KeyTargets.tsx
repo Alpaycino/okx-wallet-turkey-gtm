@@ -8,7 +8,7 @@ export function KeyTargets() {
       index={2}
       label="Targets"
       title="Four KPIs define success."
-      kicker="Every initiative ladders back to these numeric commitments. On-chain metrics only — no impression vanity."
+      kicker="Every initiative ladders back to these numeric commitments. On-chain metrics only, no impression vanity."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
         {KEY_TARGETS.map((t, i) => (

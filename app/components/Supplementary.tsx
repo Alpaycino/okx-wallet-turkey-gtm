@@ -8,7 +8,7 @@ export function Supplementary() {
       index={11}
       label="Supplementary"
       title="Deeper answers."
-      kicker="Questions that frequently follow the framework — ecosystem priorities, CeDeFi integration, KOL budget split, and the growth hack."
+      kicker="Questions that frequently follow the framework, ecosystem priorities, CeDeFi integration, KOL budget split, and the growth hack."
     >
       <div className="space-y-3">
         {SUPPLEMENTARY.map((q, i) => (

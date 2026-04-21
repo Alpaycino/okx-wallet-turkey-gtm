@@ -1,5 +1,5 @@
 // Single source of truth for all GTM content.
-// Edit values here — no layout changes needed.
+// Edit values here, no layout changes needed.
 
 export const NAV_SECTIONS = [
   { id: "summary", label: "Executive Summary" },
@@ -7,9 +7,9 @@ export const NAV_SECTIONS = [
   { id: "friction", label: "Friction Points" },
   { id: "positioning", label: "Positioning" },
   { id: "framework", label: "6-Month Framework" },
-  { id: "phase-1", label: "Phase 1 — Foundation" },
-  { id: "phase-2", label: "Phase 2 — Activation" },
-  { id: "phase-3", label: "Phase 3 — Scale" },
+  { id: "phase-1", label: "Phase 1, Foundation" },
+  { id: "phase-2", label: "Phase 2, Activation" },
+  { id: "phase-3", label: "Phase 3, Scale" },
   { id: "kols", label: "KOL Ecosystem" },
   { id: "community", label: "Community & Education" },
   { id: "supplementary", label: "Supplementary Q&A" },
@@ -66,7 +66,7 @@ export const FRICTION_POINTS = [
     title: "Seed Phrase Anxiety",
     problem: "Users fear managing private keys and a single point of loss.",
     solution:
-      "Promote OKX MPC Keyless Wallet — no seed phrase, key split into 3 parts stored across user, cloud, and OKX.",
+      "Promote OKX MPC Keyless Wallet, no seed phrase, key split into 3 parts stored across user, cloud, and OKX.",
   },
   {
     title: "On-Chain Complexity",
@@ -78,7 +78,7 @@ export const FRICTION_POINTS = [
     title: "No Clear Use Case",
     problem: "Users don't see why to leave CEX.",
     solution:
-      "Surface DeFi yield, meme trading, and airdrop farming — on-chain-only opportunities.",
+      "Surface DeFi yield, meme trading, and airdrop farming, on-chain-only opportunities.",
   },
   {
     title: "Language Gap",
@@ -89,9 +89,9 @@ export const FRICTION_POINTS = [
 ];
 
 export const POSITIONING = {
-  headline: "OKX Wallet's edge is CeDeFi — not just another wallet.",
+  headline: "OKX Wallet's edge is CeDeFi, not just another wallet.",
   oneLiner:
-    "The most powerful CeDeFi gateway — centralized liquidity meets multi-chain Web3 access.",
+    "The most powerful CeDeFi gateway, centralized liquidity meets multi-chain Web3 access.",
   shouldNotBe: [
     "Just another mobile wallet",
     "A yield-first DeFi product",
@@ -111,7 +111,7 @@ export const POSITIONING = {
     {
       title: "CEX → Wallet Bridge",
       detail:
-        "Seamless asset transfer between exchange and self-custody — no new account, no new KYC.",
+        "Seamless asset transfer between exchange and self-custody, no new account, no new KYC.",
     },
     {
       title: "Gas Abstraction",
@@ -287,7 +287,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
   {
     title: "Security Awareness Campaign",
     description:
-      "'Not your keys, not your crypto' Turkish narrative. Seed phrase protection, scam recognition, approval revoke awareness — addresses the #1 friction for CEX users.",
+      "'Not your keys, not your crypto' Turkish narrative. Seed phrase protection, scam recognition, approval revoke awareness, addresses the #1 friction for CEX users.",
     kols: ["@coinmuhendisi", "@Coinisan", "@zenerbabax"],
     due: "Month 1–2",
     owner: "Alpay",
@@ -295,7 +295,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
   {
     title: "First On-Chain Transaction Incentive",
     description:
-      "Gas fee reimbursement, bonus token rewards, achievement NFTs — designed to pull CEX-only users into their first on-chain action.",
+      "Gas fee reimbursement, bonus token rewards, achievement NFTs, designed to pull CEX-only users into their first on-chain action.",
     due: "Month 1–2",
     owner: "Alpay",
   },
@@ -629,7 +629,7 @@ export const PHASE_3_TASKS: PhaseTask[] = [
   {
     title: "On-Chain Retention Campaign",
     description:
-      "Loyalty rewards, streak bonuses, exclusive access to partner airdrops — keeps active users engaged.",
+      "Loyalty rewards, streak bonuses, exclusive access to partner airdrops, keeps active users engaged.",
     due: "Month 5–6",
     owner: "Alpay",
   },
@@ -672,8 +672,8 @@ export const KOL_CATEGORIES = [
       { handle: "@CryptoKemal", reach: "655K" },
       { handle: "@Kriptomessi", reach: "600K" },
       { handle: "@Selcoin", reach: "580K" },
-      { handle: "@dotiryaki", reach: "—" },
-      { handle: "@artuntan", reach: "—" },
+      { handle: "@dotiryaki", reach: "" },
+      { handle: "@artuntan", reach: "" },
     ],
   },
   {
@@ -681,11 +681,11 @@ export const KOL_CATEGORIES = [
     cadence: "High-trust conversion",
     focus: "DeFi tutorials · Yield strategies · DEX Aggregator demos",
     kols: [
-      { handle: "@TheBullduck", reach: "—" },
-      { handle: "@Kriptolik", reach: "—" },
-      { handle: "@zenerbabax", reach: "—" },
-      { handle: "@coinmuhendisi", reach: "—" },
-      { handle: "@Vemutlu", reach: "—" },
+      { handle: "@TheBullduck", reach: "" },
+      { handle: "@Kriptolik", reach: "" },
+      { handle: "@zenerbabax", reach: "" },
+      { handle: "@coinmuhendisi", reach: "" },
+      { handle: "@Vemutlu", reach: "" },
     ],
   },
   {
@@ -693,11 +693,11 @@ export const KOL_CATEGORIES = [
     cadence: "Signal-driven",
     focus: "Airdrop farming · Ecosystem research · Alpha content",
     kols: [
-      { handle: "@BurakEth33", reach: "—" },
-      { handle: "@Modularityx", reach: "—" },
-      { handle: "@CoinHuntersTR", reach: "—" },
-      { handle: "@kriptobi", reach: "—" },
-      { handle: "@Coinisan", reach: "—" },
+      { handle: "@BurakEth33", reach: "" },
+      { handle: "@Modularityx", reach: "" },
+      { handle: "@CoinHuntersTR", reach: "" },
+      { handle: "@kriptobi", reach: "" },
+      { handle: "@Coinisan", reach: "" },
     ],
   },
   {
@@ -705,8 +705,8 @@ export const KOL_CATEGORIES = [
     cadence: "High-frequency",
     focus: "Meme trading · Competitions · Live trading sessions",
     kols: [
-      { handle: "@HeathleyETH", reach: "—" },
-      { handle: "@CasanovaWeb3", reach: "—" },
+      { handle: "@HeathleyETH", reach: "" },
+      { handle: "@CasanovaWeb3", reach: "" },
     ],
   },
 ];
@@ -807,7 +807,7 @@ export const SUPPLEMENTARY = [
   {
     id: "q2",
     question: "CeDeFi Integration",
-    body: "OKX's CEX-DEX synergy eliminates the cold-start problem — users graduate from CEX naturally instead of learning Web3 from scratch.",
+    body: "OKX's CEX-DEX synergy eliminates the cold-start problem, users graduate from CEX naturally instead of learning Web3 from scratch.",
     steps: [
       "Users trade on OKX CEX (familiar environment)",
       "DEX trading opportunities surfaced within CEX interface",
@@ -821,18 +821,18 @@ export const SUPPLEMENTARY = [
     body: "60% Technical DeFi Analysts (high trust) · 40% Lifestyle Creators (high reach). Both accountable to on-chain KPIs.",
     kpis: [
       {
-        title: "KPI 1 — First On-Chain Transaction Rate",
+        title: "KPI 1, First On-Chain Transaction Rate",
         detail: "% of users executing first swap after wallet install.",
       },
       {
-        title: "KPI 2 — Avg On-Chain Volume per User",
+        title: "KPI 2, Avg On-Chain Volume per User",
         detail: "Measures depth of engagement per KOL's audience.",
       },
     ],
   },
   {
     id: "q4",
-    question: "Growth Hack — First Swap Gas Refund",
+    question: "Growth Hack, First Swap Gas Refund",
     body: "Users who complete their first DEX swap receive gas reimbursement + bonus token reward. This eliminates the #1 barrier (cost anxiety) and creates an immediate aha moment.",
     loop:
       "UX Feedback Loop: Pain points collected via Telegram support, community surveys, and KOL reports → monthly digest forwarded to the global product team for wallet UX improvements.",
@@ -841,7 +841,7 @@ export const SUPPLEMENTARY = [
 
 export const MOCK_CAMPAIGNS = [
   {
-    title: "Campaign 1 — AI Agent Meme Trading League",
+    title: "Campaign 1, AI Agent Meme Trading League",
     positioning: "The Home of AI-Powered Meme Trading",
     concept:
       "Nationwide trading competition using OKX Wallet AI Agents to discover and trade meme tokens.",
@@ -865,7 +865,7 @@ export const MOCK_CAMPAIGNS = [
     ],
   },
   {
-    title: "Campaign 2 — Partner Ecosystem Trading Incentive",
+    title: "Campaign 2, Partner Ecosystem Trading Incentive",
     positioning: "CeDeFi ecosystem discovery, token-incentivized",
     concept:
       "Co-marketing with a partner Web3 protocol launching a token incentive campaign. Turkish users complete guided on-chain tasks to earn token rewards.",
@@ -893,29 +893,29 @@ export const MOCK_CAMPAIGNS = [
 export const PAST_CAMPAIGNS = [
   {
     title: "Dappad × Clave",
-    note: "Campaign execution — X post",
+    note: "Campaign execution, X post",
     url: "https://x.com/Dappadofficial/status/1792591723425575005?s=20",
   },
   {
     title: "Dappad × SyncSwap",
-    note: "Campaign execution — X post",
+    note: "Campaign execution, X post",
     url: "https://x.com/Dappadofficial/status/1798395856728563828?s=20",
   },
   {
     title: "Scouthub × Fenerbahçe",
-    note: "Partnership launch — Fenerbahçe post",
+    note: "Partnership launch, Fenerbahçe post",
     url: "https://x.com/Fenerbahce/status/1655131623132651520?s=20",
   },
   {
     title: "IBC × Impakt × Berachain",
-    note: "Ecosystem collaboration — Impakt post",
+    note: "Ecosystem collaboration, Impakt post",
     url: "https://x.com/impaktofficial/status/1927045052691341785?s=20",
   },
 ];
 
 export const SUCCESS_METRICS = [
   {
-    bucket: "Month 2 — Foundation Checkpoint",
+    bucket: "Month 2, Foundation Checkpoint",
     subtitle: "Early-execution quality benchmark (weekly measured).",
     items: [
       { label: "Turkish Wallet MAU", value: "5,000+" },
@@ -927,7 +927,7 @@ export const SUCCESS_METRICS = [
     ],
   },
   {
-    bucket: "Month 4 — Activation Checkpoint",
+    bucket: "Month 4, Activation Checkpoint",
     subtitle: "First full-cycle GTM signal checkpoint.",
     items: [
       { label: "Turkish Wallet MAU", value: "12,000+" },
@@ -939,7 +939,7 @@ export const SUCCESS_METRICS = [
     ],
   },
   {
-    bucket: "Month 6 — Scale Checkpoint",
+    bucket: "Month 6, Scale Checkpoint",
     subtitle: "Conversion depth and retention benchmark.",
     items: [
       { label: "Turkish Wallet MAU", value: "20,000+" },
@@ -961,8 +961,8 @@ export const CLOSING = {
     "Incentives convert attention into first-touch on-chain actions",
     "Ecosystem partnerships drive retention and depth",
     "CeDeFi narrative unifies CEX users with on-chain upside",
-    "All activity measured by on-chain KPIs — not impressions",
+    "All activity measured by on-chain KPIs, not impressions",
   ],
   rule:
-    "The most important rule is consistency. Every channel should sound like OKX Wallet — the CeDeFi gateway for Türkiye — not a campaign chasing a narrative.",
+    "The most important rule is consistency. Every channel should sound like OKX Wallet, the CeDeFi gateway for Türkiye, not a campaign chasing a narrative.",
 };

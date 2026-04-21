@@ -7,7 +7,7 @@ export function MockCampaigns() {
       id="mock-campaigns"
       index={12}
       label="Mock Campaigns"
-      title="Two flagship campaigns — ready to brief."
+      title="Two flagship campaigns, ready to brief."
       kicker="Concrete end-to-end programs that showcase how the framework executes across mechanics, rewards, KOL fanout, and measurement."
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">

@@ -9,43 +9,47 @@ export function Hero() {
     >
       <div className="okx-glow" />
       <div className="relative">
-        {/* OKX Wallet mark at the very top — overlayer-style brand slab */}
-        <div className="mb-10 md:mb-14">
-          <div className="inline-flex items-center gap-4 rounded-xl border border-okx-border bg-okx-surface px-5 py-4">
-            <OkxWalletLogo className="text-okx-text" width={120} />
-            <span className="h-10 w-px bg-okx-border" />
-            <div className="text-left">
-              <div className="text-[10px] uppercase tracking-[0.18em] text-okx-muted font-semibold">
-                Case Study
-              </div>
-              <div className="text-[13px] text-okx-text font-semibold mt-0.5">
-                Türkiye Go-To-Market
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          <div className="lg:col-span-7">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="chip">
+                <span className="w-1.5 h-1.5 rounded-full bg-okx-green mr-2" />
+                Draft · Q2 2026
+              </span>
+              <span className="chip">6-Month GTM</span>
+              <span className="chip">Türkiye</span>
+            </div>
+
+            <h1 className="text-[40px] md:text-[64px] leading-[1.02] font-semibold tracking-tightest">
+              OKX Wallet
+              <span className="text-okx-green"> Türkiye</span>
+              <br />
+              Go-To-Market Strategy.
+            </h1>
+
+            <p className="mt-6 text-okx-muted text-base md:text-lg max-w-2xl leading-relaxed">
+              Converting Türkiye's retail CEX traders into active on-chain OKX
+              Wallet users through a localized CeDeFi playbook: education, KOL
+              networks, and ecosystem partnerships.
+            </p>
+          </div>
+
+          {/* OKX Wallet brand slab, right-side, overlayer-style */}
+          <div className="lg:col-span-5 flex lg:justify-end">
+            <div className="inline-flex flex-col gap-5 rounded-2xl border border-okx-border bg-okx-surface px-8 py-8 w-full lg:max-w-[440px]">
+              <OkxWalletLogo className="text-okx-text" width={260} />
+              <span className="h-px w-full bg-okx-border" />
+              <div className="text-left">
+                <div className="text-[10px] uppercase tracking-[0.18em] text-okx-muted font-semibold">
+                  Case Study
+                </div>
+                <div className="text-[15px] text-okx-text font-semibold mt-1">
+                  Türkiye Go-To-Market
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div className="flex items-center gap-3 mb-6">
-          <span className="chip">
-            <span className="w-1.5 h-1.5 rounded-full bg-okx-green mr-2" />
-            Draft · Q2 2026
-          </span>
-          <span className="chip">6-Month GTM</span>
-          <span className="chip">Türkiye</span>
-        </div>
-
-        <h1 className="text-[40px] md:text-[64px] leading-[1.02] font-semibold tracking-tightest max-w-4xl">
-          OKX Wallet
-          <span className="text-okx-green"> Türkiye</span>
-          <br />
-          Go-To-Market Strategy.
-        </h1>
-
-        <p className="mt-6 text-okx-muted text-base md:text-lg max-w-2xl leading-relaxed">
-          Converting Türkiye's retail CEX traders into active on-chain OKX
-          Wallet users through a localized CeDeFi playbook: education, KOL
-          networks, and ecosystem partnerships.
-        </p>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="card p-6">

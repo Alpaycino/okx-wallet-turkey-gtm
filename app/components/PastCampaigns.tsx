@@ -8,7 +8,7 @@ export function PastCampaigns() {
       index={13}
       label="Proof of Work"
       title="Past campaigns I've executed."
-      kicker="Reference campaigns showing the operating model in practice — across partner integrations, ecosystem launches, and sports collabs."
+      kicker="Reference campaigns showing the operating model in practice, across partner integrations, ecosystem launches, and sports collabs."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {PAST_CAMPAIGNS.map((c, i) => (

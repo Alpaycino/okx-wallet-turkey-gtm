@@ -8,7 +8,7 @@ export function FrictionPoints() {
       index={3}
       label="Friction"
       title="Four barriers to convert."
-      kicker="Turkish users sit at one of the world's most active CEX markets — but with limited on-chain participation. These are the frictions the GTM plan dismantles."
+      kicker="Turkish users sit at one of the world's most active CEX markets, but with limited on-chain participation. These are the frictions the GTM plan dismantles."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {FRICTION_POINTS.map((f, i) => (

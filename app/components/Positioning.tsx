@@ -34,7 +34,7 @@ export function Positioning() {
 
         <div className="lg:col-span-3 card p-6">
           <div className="micro-label mb-4" style={{ color: "#B9F25A" }}>
-            CeDeFi advantage
+            OKX Wallet advantage
           </div>
           <div className="grid sm:grid-cols-2 gap-3">
             {POSITIONING.advantages.map((a, i) => (

@@ -8,7 +8,7 @@ export function Community() {
       index={10}
       label="Community"
       title="The Learn → Retain flywheel."
-      kicker="Every channel exists to pull users deeper into the loop — from first tutorial view to repeat on-chain activity."
+      kicker="Every channel exists to pull users deeper into the loop, from first tutorial view to repeat on-chain activity."
     >
       <div className="card p-6">
         <div className="micro-label mb-6">5-Step Flywheel</div>

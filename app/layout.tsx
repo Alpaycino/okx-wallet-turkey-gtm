@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "OKX Wallet Türkiye | GTM Strategy",
     description:
-      "6-month Turkish Web3 growth plan — localized education, KOL-driven community growth, and CeDeFi onboarding.",
+      "6-month Turkish Web3 growth plan, localized education, KOL-driven community growth, and CeDeFi onboarding.",
   },
 };
 
