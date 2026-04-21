@@ -17,10 +17,13 @@ import { PHASE_1_TASKS, PHASE_2_TASKS, PHASE_3_TASKS } from "@/lib/data";
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen bg-okx-bg overflow-hidden">
-      <BackgroundLogo />
-      <div className="okx-grid absolute inset-0 pointer-events-none" />
-      <div className="relative flex">
+    <div className="relative min-h-screen bg-okx-bg">
+      {/* Fixed background layer — stays locked on scroll */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <BackgroundLogo />
+        <div className="okx-grid absolute inset-0" />
+      </div>
+      <div className="relative flex z-10">
         <Sidebar />
         <main className="flex-1 min-w-0">
           <div className="w-full max-w-[1200px] pl-5 pr-5 md:pl-8 md:pr-10 lg:pl-10 lg:pr-14">
