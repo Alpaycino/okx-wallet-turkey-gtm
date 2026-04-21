@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="summary"
-      className="section-anchor relative pt-14 md:pt-20 pb-16 md:pb-20"
+      className="section-anchor relative pt-14 md:pt-20 pb-10 md:pb-14"
     >
       <div className="okx-glow" />
       <div className="relative">

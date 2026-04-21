@@ -16,7 +16,7 @@ export function Section({
   children: ReactNode;
 }) {
   return (
-    <section id={id} className="section-anchor py-16 md:py-24">
+    <section id={id} className="section-anchor py-10 md:py-14">
       <div className="mb-8 md:mb-10">
         <div className="flex items-center gap-3 mb-4">
           <span className="font-mono text-[11px] text-okx-dim">
