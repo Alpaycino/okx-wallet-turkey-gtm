@@ -1,5 +1,6 @@
 import { FRAMEWORK_PHASES } from "@/lib/data";
 import { Section } from "./Section";
+import { PhaseTimeline } from "./PhaseTimeline";
 
 const accents: Record<string, { dot: string; ring: string; label: string }> = {
   blue: {
@@ -75,6 +76,8 @@ export function Framework() {
           );
         })}
       </div>
+
+      <PhaseTimeline />
     </Section>
   );
 }
