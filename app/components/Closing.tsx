@@ -7,6 +7,7 @@ export function Closing() {
       id="recommendations"
       index={15}
       label="Closing"
+      icon="🏁"
       title={CLOSING.headline}
       kicker="The operating principles that hold the 6-month plan together."
     >

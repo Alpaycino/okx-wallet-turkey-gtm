@@ -7,6 +7,7 @@ export function FrictionPoints() {
       id="friction"
       index={3}
       label="Friction"
+      icon="🚧"
       title="Four barriers to convert."
       kicker="Turkish users sit at one of the world's most active CEX markets, but with limited on-chain participation. These are the frictions the GTM plan dismantles."
     >

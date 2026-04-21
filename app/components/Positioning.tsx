@@ -7,6 +7,7 @@ export function Positioning() {
       id="positioning"
       index={4}
       label="Positioning"
+      icon="🧭"
       title={POSITIONING.headline}
       kicker={POSITIONING.oneLiner}
     >

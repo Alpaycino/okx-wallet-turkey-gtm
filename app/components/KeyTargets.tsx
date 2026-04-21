@@ -7,6 +7,7 @@ export function KeyTargets() {
       id="targets"
       index={2}
       label="Targets"
+      icon="🎯"
       title="Four KPIs define success."
       kicker="Every initiative ladders back to these numeric commitments. On-chain metrics only, no impression vanity."
     >

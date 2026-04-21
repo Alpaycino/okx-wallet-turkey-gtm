@@ -26,6 +26,7 @@ export function Framework() {
       id="framework"
       index={5}
       label="Framework"
+      icon="🗺️"
       title="Six months, three phases."
       kicker="Foundation sets the onboarding rails. Activation drives on-chain volume. Scale expands via partnerships and airdrop ecosystems."
     >

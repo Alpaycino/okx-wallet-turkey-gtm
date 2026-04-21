@@ -10,6 +10,7 @@ export function SuccessMetrics() {
       id="metrics"
       index={14}
       label="Success Metrics"
+      icon="📊"
       title="Three checkpoints, one trajectory."
       kicker="Month 2 benchmarks execution quality. Month 4 confirms full-cycle signal. Month 6 evaluates conversion depth and retention."
     >

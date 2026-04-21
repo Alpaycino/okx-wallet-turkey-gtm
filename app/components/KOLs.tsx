@@ -7,6 +7,7 @@ export function KOLs() {
       id="kols"
       index={9}
       label="KOL Ecosystem"
+      icon="🎙️"
       title="Four tiers. One network."
       kicker="The KOL ecosystem is segmented by content purpose, every partner is measured against on-chain KPIs, not impressions."
     >

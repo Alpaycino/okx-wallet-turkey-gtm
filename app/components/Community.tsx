@@ -7,6 +7,7 @@ export function Community() {
       id="community"
       index={10}
       label="Community"
+      icon="🫂"
       title="The Learn → Retain flywheel."
       kicker="Every channel exists to pull users deeper into the loop, from first tutorial view to repeat on-chain activity."
     >

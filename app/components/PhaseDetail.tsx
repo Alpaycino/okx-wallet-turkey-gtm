@@ -13,6 +13,11 @@ export function PhaseDetail({
   tasks: PhaseTask[];
 }) {
   const phase = FRAMEWORK_PHASES.find((p) => p.key === phaseKey)!;
+  const phaseIcons: Record<string, string> = {
+    "phase-1": "📘",
+    "phase-2": "📗",
+    "phase-3": "📙",
+  };
   const accentDot =
     phase.accent === "blue"
       ? "bg-okx-blue"
@@ -31,6 +36,7 @@ export function PhaseDetail({
       id={id}
       index={index}
       label={`${phase.label} · ${phase.months}`}
+      icon={phaseIcons[phaseKey]}
       title={phase.title}
       kicker={phase.goal}
     >

@@ -7,6 +7,7 @@ export function PastCampaigns() {
       id="past-campaigns"
       index={13}
       label="Proof of Work"
+      icon="📂"
       title="Past campaigns I've executed."
       kicker="Reference campaigns showing the operating model in practice, across partner integrations, ecosystem launches, and sports collabs."
     >

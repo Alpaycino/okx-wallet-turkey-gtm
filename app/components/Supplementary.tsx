@@ -7,6 +7,7 @@ export function Supplementary() {
       id="supplementary"
       index={11}
       label="Supplementary"
+      icon="❓"
       title="Deeper answers."
       kicker="Questions that frequently follow the framework, ecosystem priorities, CeDeFi integration, KOL budget split, and the growth hack."
     >
