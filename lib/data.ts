@@ -201,7 +201,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
     title: "Turkish Educational Thread Series Launch",
     description:
       "Weekly Turkish educational thread series across KOL accounts covering OKX Wallet features, DeFi concepts, and on-chain trading.",
-    kols: ["@Vemutlu", "@coinmuhendisi", "@Kriptolik"],
+    kols: ["@Vemutlu", "@coinmuhendisi", "@theKriptolik"],
     due: "Month 1–2",
     owner: "Alpay",
   },
@@ -209,7 +209,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
     title: "DeFi Beginner Video Content",
     description:
       "'What is DeFi?', 'How to use a DEX', 'Understanding gas fees and bridging'. Distribution through YouTube, Twitter, and TikTok.",
-    kols: ["@Kriptolik", "@Vemutlu", "@coinmuhendisi"],
+    kols: ["@theKriptolik", "@Vemutlu", "@coinmuhendisi"],
     due: "Month 1–2",
     owner: "Alpay",
   },
@@ -273,7 +273,7 @@ export const PHASE_1_TASKS: PhaseTask[] = [
     title: "OKX DEX Aggregator Awareness Campaign",
     description:
       "The canonical introduction to OKX's routing advantage: best-price execution across 500+ DEXs and 130+ chains. Comparison content vs competitors. Establishes the numbers once in Phase 1; Phases 2 and 3 reference without restating.",
-    kols: ["@Kriptolik", "@zenerbabax"],
+    kols: ["@theKriptolik", "@zenerbabax"],
     due: "Month 1–2",
     owner: "Alpay",
   },
@@ -330,7 +330,7 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     kols: [
       "@HeathleyETH",
       "@CasanovaWeb3",
-      "@Kriptolik",
+      "@theKriptolik",
       "@zenerbabax",
       "@artuntan",
       "@Coinisan",
@@ -358,7 +358,7 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     title: "OnchainOS Education Campaign",
     description:
       "'Your wallet is now an OS' Turkish narrative. AI agents for token discovery, market analysis, and trade execution.",
-    kols: ["@Kriptolik", "@zenerbabax", "@Coinisan", "@Modularityx"],
+    kols: ["@theKriptolik", "@zenerbabax", "@Coinisan", "@Modularityx"],
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -366,7 +366,7 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     title: "Alpha Radar Token Discovery Campaign",
     description:
       "Turkish campaign showcasing emerging token discovery, early entry strategies, and screening techniques.",
-    kols: ["@Kriptolik", "@zenerbabax"],
+    kols: ["@theKriptolik", "@zenerbabax"],
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -396,7 +396,7 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     title: "DEX Aggregator Advanced Features Campaign",
     description:
       "Phase 2 DEX Aggregator focus for traders already past the Phase 1 awareness stage: limit-order UX, best-routing demonstrations, gas optimization, and MEV protection.",
-    kols: ["@Kriptolik", "@zenerbabax"],
+    kols: ["@theKriptolik", "@zenerbabax"],
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -420,7 +420,7 @@ export const PHASE_2_TASKS: PhaseTask[] = [
     title: "Liquidity Pool Education Campaign",
     description:
       "How LPs work, providing liquidity via OKX Wallet, IL risk, choosing optimal pools. Beginner to intermediate.",
-    kols: ["@coinmuhendisi", "@Kriptolik"],
+    kols: ["@coinmuhendisi", "@theKriptolik"],
     due: "Month 3–4",
     owner: "Alpay",
   },
@@ -483,7 +483,7 @@ export const PHASE_3_TASKS: PhaseTask[] = [
     title: "Cross-Chain DeFi Strategy Campaign",
     description:
       "KOLs demonstrate end-to-end multi-ecosystem plays: bridging capital, rotating between chains for the best yield or airdrop exposure, and consolidating positions via OKX Wallet. Focus is strategy mastery, not aggregator coverage (already established in Phase 1).",
-    kols: ["@Kriptolik", "@zenerbabax", "@HeathleyETH", "@CasanovaWeb3"],
+    kols: ["@theKriptolik", "@zenerbabax", "@HeathleyETH", "@CasanovaWeb3"],
     due: "Month 5–6",
     owner: "Alpay",
   },
@@ -491,7 +491,7 @@ export const PHASE_3_TASKS: PhaseTask[] = [
     title: "New Protocol Discovery Campaign",
     description:
       "Alpha Radar integration for early token discovery. New protocol launches and early interaction opportunities.",
-    kols: ["@Kriptolik", "@Coinisan", "@Modularityx"],
+    kols: ["@theKriptolik", "@Coinisan", "@Modularityx"],
     due: "Month 5–6",
     owner: "Alpay",
   },
@@ -522,7 +522,7 @@ export const PHASE_3_TASKS: PhaseTask[] = [
     title: "On-Chain Ecosystem Discovery Content",
     description:
       "Which chains to explore, top protocols per chain, optimal multi-chain strategies.",
-    kols: ["@Kriptolik", "@zenerbabax", "@Coinisan"],
+    kols: ["@theKriptolik", "@zenerbabax", "@Coinisan"],
     due: "Month 5–6",
     owner: "Alpay",
   },
@@ -604,7 +604,7 @@ export const KOL_CATEGORIES = [
     focus: "DeFi tutorials · Yield strategies · DEX Aggregator demos",
     kols: [
       { handle: "@TheBullduck", reach: "" },
-      { handle: "@Kriptolik", reach: "" },
+      { handle: "@theKriptolik", reach: "" },
       { handle: "@zenerbabax", reach: "" },
       { handle: "@coinmuhendisi", reach: "" },
       { handle: "@Vemutlu", reach: "" },
@@ -778,7 +778,7 @@ export const MOCK_CAMPAIGNS = [
       "Partner token incentives",
       "Limited OKX NFT collectibles",
     ],
-    kols: ["@HeathleyETH", "@CasanovaWeb3", "@Kriptolik", "@zenerbabax"],
+    kols: ["@HeathleyETH", "@CasanovaWeb3", "@theKriptolik", "@zenerbabax"],
     metrics: [
       "AI agent adoption rate",
       "Meme trading volume via OKX Wallet",
