@@ -39,7 +39,7 @@ export function Closing() {
             Prepared by Alpay · April 2026
           </div>
           <div className="text-[12px] text-okx-muted mt-1">
-            OKX Wallet Türkiye — 6-Month Go-To-Market Strategy
+            Türkiye Web3 · 6-Month Go-To-Market Case Study
           </div>
         </div>
         <a

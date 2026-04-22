@@ -3,13 +3,14 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OKX Wallet Türkiye | 6-Month Go-To-Market Strategy",
+  title: "Alpay · Türkiye Web3 Go-To-Market Case Study",
   description:
-    "Execution plan for converting Turkish CEX traders into active on-chain OKX Wallet users. A localized CeDeFi GTM model across education, KOL networks, and ecosystem partnerships.",
+    "A personal case study by Alpay: a localized 6-month Türkiye Web3 go-to-market playbook across education, KOL networks, and ecosystem partnerships. Independent work, not affiliated with any company.",
+  robots: { index: false, follow: false },
   openGraph: {
-    title: "OKX Wallet Türkiye | GTM Strategy",
+    title: "Alpay · Türkiye Web3 GTM Case Study",
     description:
-      "6-month Turkish Web3 growth plan, localized education, KOL-driven community growth, and CeDeFi onboarding.",
+      "Independent 6-month Türkiye Web3 GTM case study by Alpay.",
   },
 };
 

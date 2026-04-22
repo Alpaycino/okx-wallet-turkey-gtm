@@ -38,10 +38,10 @@ export function Sidebar() {
           <AlpayMark size={40} rounded={10} />
           <div className="leading-tight">
             <div className="text-[14px] font-bold text-okx-text tracking-tight">
-              Alpay × OKX Wallet
+              Alpay · Case Study
             </div>
             <div className="text-[11px] text-okx-muted mt-0.5 tracking-wide uppercase">
-              Türkiye GTM · 6 Month Plan
+              Türkiye Web3 GTM · 6 Month Plan
             </div>
           </div>
         </div>
